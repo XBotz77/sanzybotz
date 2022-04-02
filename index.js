@@ -135,7 +135,7 @@ const starts = async (kurr = new WAConnection()) => {
 	kurr.logger.level = 'warn'
 	kurr.version = [2,2143,3]
 	console.log(color(`\x1b[1;37m> ${tampilUcapan}\n`,'cyan'))
-	console.log(color(figlet.textSync('SanzyBotz Assistan', {
+	console.log(color(figlet.textSync('Saleh Botz Assistan', {
 		font: 'Standard',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
@@ -153,7 +153,7 @@ console.log(color('> HARI ','silver'), color(`${tampilHari}\n`,'mediumseagreen')
 })
 	kurr.on('credentials-updated', () => {
 		fs.writeFileSync('./session.json', JSON.stringify(kurr.base64EncodedAuthInfo(), null, '\t'))
-		info('2', 'Sanzy Botz Asisstan Loading...')
+		info('2', 'Saleh Botz Asisstan Loading...')
 	})
 	fs.existsSync('./session.json') && kurr.loadAuthInfo('./session.json')
 	kurr.on('connecting', () => {
