@@ -214,7 +214,7 @@ kurr.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
    // owner
 
 
-    const htod = "6281276698054@s.whatsapp.net"
+    const htod = "6285822558496@s.whatsapp.net"
 
     
 
@@ -397,8 +397,8 @@ kurr.on('group-update', async (anu) => {
 	})
     kurr.on('chat-update', async (message) => {
         require('./kurr.js')(kurr, message)
-        ownerNumber = ["6281276698054@s.whatsapp.net","6281276698054@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "6281276698054@s.whatsapp.net"
+        ownerNumber = ["6285822558496@s.whatsapp.net","6281276698054@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "6285822558496@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })  
 }
